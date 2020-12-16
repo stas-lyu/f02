@@ -1,5 +1,5 @@
+#time{font-size:40px;color:black}
+
 
 *{margin:0;padding:0;list-style:none;text-decoration:none}ul{background-color:lightgreen;display:flex;align-items:center}ul a{margin:10px 15px}ul a :hover{color:yellow}@media (max-width: 640px){.menu{display:none}.trigger{display:inline-block;margin:3px;cursor:pointer}.trigger p{display:block;width:50px;height:6px;margin:4px auto;background-color:#222}.show{display:block;background-color:pink;width:100px;margin:2px;padding:5px;text-align:center;text-transform:uppercase}.into{display:none}}
-
-#time{font-size:40px;color:white}
 
