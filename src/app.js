@@ -1,3 +1,4 @@
-import './scss/base.scss'
-import './scss/valerii.scss'
-import './js/valerii.js'
+import "./scss/base.scss";
+import "./scss/burger.scss";
+import "./js/burger.js";
+
