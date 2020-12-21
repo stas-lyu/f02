@@ -132,3 +132,40 @@ html {
         text-decoration: underline;
     }
 }
+
+.prodH:before{
+    content: "";
+    position: absolute;
+    width: 111px;
+    height: 3px;
+    background-color: #dc0000;
+    top: 0;
+    left: 45%;
+}
+.prodH:after{
+    content: "";
+    position: absolute;
+    width: 111px;
+    height: 3px;
+    background-color: #dc0000;
+    bottom: 0;
+    left: 45%;
+}
+.pAftBef:before{
+    content: "";
+    position: absolute;
+    width: 190px;
+    height: 1px;
+    background-color: white;
+    top: 0;
+    left: 33%;
+}
+.pAftBef:after{
+    content: "";
+    position: absolute;
+    width: 190px;
+    height: 1px;
+    background-color: white;
+    bottom: 0;
+    left: 33%;
+}
