@@ -1,3 +1,6 @@
+import "./scss/time.scss";
+import "./js/time.js";
+
 import "./scss/base.scss";
-import "./js/header.js";
-import "./js/all.js";
+import "./scss/burger.scss";
+import "./js/burger.js";
