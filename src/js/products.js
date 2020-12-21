@@ -35,7 +35,7 @@ window.addEventListener('load', ()=>{
         divOne.style.cssText = `position: relative;
         height: 415px;
         width: 370px;
-        background-image: url(img/img${i+1}.png);`;
+        background-image: url(../img/img${i+1}.png);`;
         let divdivOne = document.createElement("div");
         divOne.append(divdivOne);
         divdivOne.style.cssText = `position: absolute;
@@ -44,18 +44,20 @@ window.addEventListener('load', ()=>{
         bottom: 0;
         left: 0;
         right: 0;
-        padding: 28px;
-        padding-bottom: 180px;`;
+        padding: 28px;`;
         let pOne = document.createElement("p");
         divdivOne.append(pOne);
         pOne.style.cssText = `height: 100%;
+        width: 100%;
         font-family: 'Open Sans', sans-serif;
         font-size: 40px;
         text-align: center;
         color: white;
         border: 3px solid white;
         margin: 0;
-        padding: 150px 0 0 0;`;
+        display: flex;
+        justify-content: center;
+        align-items: center;`;
 
         switch(i) {
             case 0:
@@ -78,7 +80,7 @@ window.addEventListener('load', ()=>{
         divTwo.style.cssText = `position: relative;
         height: 415px;
         width: 570px;
-        background-image: url(img/img${j+4}.png);`;
+        background-image: url(../img/img${j+4}.png);`;
         let divdivTwo = document.createElement("div");
         divTwo.append(divdivTwo);
         divdivTwo.style.cssText = `position: absolute;
