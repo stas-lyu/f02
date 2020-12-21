@@ -216,7 +216,7 @@ body {
 }
 
 .header {
-  background: url("../../assets/img/background.png");
+  background: url("../assets/img/background.png");
   background-repeat: no-repeat;
   object-fit: cover;
   width: 1200px;
@@ -303,4 +303,8 @@ nav li {
 .divCircle {
   padding: 140px 0 90px 0;
   text-align: center;
+}
+
+.timer {
+  display: none;
 }
