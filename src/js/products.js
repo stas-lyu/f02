@@ -59,6 +59,7 @@ window.addEventListener('load', ()=>{
         justify-content: center;
         align-items: center;`;
 
+        
         switch(i) {
             case 0:
                 pOne.innerHTML = "Men";
