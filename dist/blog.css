@@ -1,0 +1,109 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+.blogPage {
+  padding: 60px 0;
+}
+.blogPage .container {
+  width: 1140px;
+  margin: auto;
+}
+.blogPage h2 {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 1;
+  text-transform: capitalize;
+  color: #333333;
+  text-align: center;
+}
+.blogPage h2::before {
+  content: '';
+  position: absolute;
+  width: 113px;
+  height: 3px;
+  background-color: #dc0000;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.blogPage h2::after {
+  content: '';
+  position: absolute;
+  width: 113px;
+  height: 3px;
+  background-color: #dc0000;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.blogPage .multiple-items {
+  margin-top: 95px;
+}
+.blogPage .slide-item {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.blogPage .slide-item img {
+  width: 100%;
+}
+.blogPage h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #dc0000;
+}
+.blogPage .byWho {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+.blogPage .byWho span {
+  margin: 0 5px;
+}
+.blogPage .miniDescription {
+  padding: 30px 0;
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+}
+.blogPage .miniDescription p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #333333;
+}
+.blogPage .readMore {
+  margin-top: 30px;
+  width: 170px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 0;
+  Font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333333;
+  text-transform: uppercase;
+  transition: all .15s ease-in;
+  cursor: pointer;
+}
+.blogPage .readMore:hover {
+  background-color: #dc0000;
+  color: white;
+}
+.blogPage .slick-custom-arrow {
+  position: absolute;
+  top: 30%;
+  cursor: pointer;
+}
+.blogPage .slick-custom-arrow-right {
+  right: -8%;
+}
+.blogPage .slick-custom-arrow-left {
+  left: -8%;
+}
