@@ -1,6 +1,4 @@
-$(document).ready(function () {
-
-    function renderFooter() {
+function renderFooter() {
         $('body').append(`<footer id="footer">
         <div class="footer_subscribe_wrapper">
             <div class="footer_subscribe_section">
@@ -39,5 +37,3 @@ $(document).ready(function () {
     }
 
     handleForm();
-
-});
